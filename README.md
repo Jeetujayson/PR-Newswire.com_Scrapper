@@ -13,3 +13,5 @@ This is so that you can itterate over multiple pages aka Pagination.
 
 Also in the script set number_of_pages_to_scrape = "WHATEVER INTEGER YOU WANT"
 
+OUTPUT:
+![Screenshot 2023-01-12 200520](https://user-images.githubusercontent.com/66886316/212094657-a81031f6-7d1e-44e7-8523-8297c4196a07.png)
