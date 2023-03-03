@@ -15,7 +15,7 @@ with open('All_Consumer_Technology_July.csv', 'w', encoding="utf-8", newline="")
     thewriter = csv.writer(f)
 
     while page < number_of_pages_to_scrape:
-        url = "https://www.prnewswire.com/news-releases/consumer-technology-latest-news/consumer-technology-latest-news-list/?month=08&day=01&year=2022&hour=00&page=" + \
+        url = "https://www.prnewswire.com/news-releases/consumer-technology-latest-news/consumer-technology-latest-news-list/?month=08&day=01&year=2022&hour=00&page=" +
             str(page)+"&pagesize=100"
         print(url)
         response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
